@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    }
+  }
+@font-face {
+    font-family: neue;
+    src: url('./assets/fonts/NeuePlak.ttf');
+}
+@font-face {
+    font-family: neueBold;
+    src: url('./assets/fonts/NeuePlakBold.ttf');
+}
+@font-face {
+    font-family: neueExtraBold;
+    src: url('./assets/fonts/NeuePlakExtraBold.ttf');
+}
+body {
+  margin: 0;
+  font-family: neue, -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bg-golden {
+  background: var(--Golden, linear-gradient(90deg, #897030 0%, #AD8F4F 99.79%));
+}

@@ -1,0 +1,18 @@
+.ButtonRegister:hover {
+    background: white;
+    box-shadow: 0 0 18px #897030, 0 0 5px #ffffff, 0 0 10px #897030;
+    outline: 3px solid #897030;
+    cursor: pointer;
+    color: black;
+}
+.ContentCal:hover {
+    box-shadow: 0 0 10px #897030, 0 0 40px #897030, 0 0 80px #897030;
+    transition-delay: 0.15s;
+}
+.ContentCal {
+    border-radius: 5px;
+    border: 3px solid #897030;
+}
+.bgGreen {
+    background-color: #061206;
+}
