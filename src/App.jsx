@@ -21,21 +21,23 @@ function App() {
       <AboutUs ref={aboutUsRef} />
       <SlideBreak
         titles={[
-          "HANOI START-UP BROTHERS FC",
-          "WITHOUT FOOTBALL MY LIFE IS NOTHING",
-          "HANOI START-UP BROTHERS FC",
-          "WITHOUT FOOTBALL MY LIFE IS NOTHING",
-          "HANOI START-UP BROTHERS FC",
+          "FC INFINITY TALK",
+          "MORE THAN A FAMILY",
+          "FC INFINITY TALK",
+          "MORE THAN A CLUB",
+          "FC INFINITY TALK",
+          "MORE THAN A SPORT",
         ]}
       />
       <Member ref={memberRef} />
       <SlideBreak
         titles={[
-          "HANOI START-UP BROTHERS FC",
-          "WITHOUT FOOTBALL MY LIFE IS NOTHING",
-          "HANOI START-UP BROTHERS FC",
-          "WITHOUT FOOTBALL MY LIFE IS NOTHING",
-          "HANOI START-UP BROTHERS FC",
+          "FC INFINITY TALK",
+          "MORE THAN A FAMILY",
+          "FC INFINITY TALK",
+          "MORE THAN A CLUB",
+          "FC INFINITY TALK",
+          "MORE THAN A SPORT",
         ]}
       />
       <Partner />

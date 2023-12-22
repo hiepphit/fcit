@@ -7,7 +7,7 @@ import { BounceLoader } from "react-spinners";
 
 const VIDEO = "https://youtu.be/cGROP19Lk-g";
 const URL =
-  "https://script.google.com/macros/s/AKfycbz8zM6WCfo62mQ_DWyGF6Tb9ERoDxqBEsKVq9AtyvfOPEZKgE8IPYRmtasf26ctvghc/exec?media=true&";
+  "https://script.google.com/macros/s/AKfycbzQe4TsBJ1wym0lOS2THtbuZp1of947232yEqVsMEqmZeBT8v51sqWco_ANGSDcb02U/exec?media=true&";
 const Media = ({}, ref) => {
   const [totalPage, setTotalPage] = useState(0);
   const [page, setPage] = useState(1);
@@ -40,7 +40,7 @@ const Media = ({}, ref) => {
         <div className="Media text-center text-zinc-950 text-5xl font-exbold font-['Neue Plak']">
           MEDIA
         </div>
-        <div className="w-full flex-col justify-between items-center flex">
+        {/* <div className="w-full flex-col justify-between items-center flex">
           <div className="w-full p-[142px] max-sm:p-10  bg-video bg-cover bg-center bg-no-repeat flex-col justify-between items-center gap-44 max-sm:gap-5 flex">
             <img
               className="w-fit self-center max-sm:w-full pt-[10px]"
@@ -55,7 +55,7 @@ const Media = ({}, ref) => {
               </div>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
       {loading ? (
         <div className="min-h-[500px] flex justify-center items-center">

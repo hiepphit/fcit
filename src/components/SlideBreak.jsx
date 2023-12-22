@@ -1,4 +1,4 @@
-import LOGO from "../assets/svg/logo.svg";
+import LOGO from "../assets/UI/logo.png";
 
 const SlideBreak = ({ titles }) => (
   <div className="Banner w-full h-[72px] py-[7px] bg-golden inline-flex overflow-hidden gap-8">

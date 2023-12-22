@@ -32,8 +32,8 @@ const AboutUs = ({}, ref) => {
           <div className="Content flex-col justify-start items-start flex">
             <div className="w-50 flex-col justify-start items-start gap-[131px] flex">
               <div className="w-full md:h-[359px] text-white text-2xl font-normal justify-start items-start flex flex-col font-['Montserrat'] tracking-tight max-sm:text-[16px]">
-                HSB FC là Sân chơi Bóng đá, Thể dục thể thao hàng tuần cho đội
-                ngũ Lãnh đạo và Quản lý.{" "}
+                FC Infinity Talk là đội bóng sinh hoạt tại thủ đô Hà Nội. Quy tụ
+                thành viên có quê Vĩnh Bảo - Hải Phòng
                 <div className="pt-10 text-start">
                   - Có sức khỏe để kiếm tiền và tận hưởng cuộc sống.
                 </div>
@@ -47,7 +47,7 @@ const AboutUs = ({}, ref) => {
             className="max-sm:hidden bg-gradient-to-tr from-[#6C5416] to-[#BBA262] text-white justify-start items-center gap-[15px] flex
           ButtonRegister px-6 py-3 rounded-sm gap-2.5 flextext-[19px] font-extrabold font-exbold"
           >
-            ĐĂNG KÝ THAM GIA HSB
+            ĐĂNG KÝ THAM GIA FC
           </div>
         </div>
 
@@ -58,7 +58,7 @@ const AboutUs = ({}, ref) => {
             </div>
             <div className="Frame427321029 flex-col justify-start items-center gap-[5px] flex">
               <div className="Th3HNgTuN w-[601px] text-center text-orange-300 text-2xl font-bold font-['Montserrat']">
-                THỨ 3 HÀNG TUẦN
+                THỨ X HÀNG TUẦN
               </div>
             </div>
             <div className="Time justify-center items-center gap-[7px] inline-flex max-sm:w-50">
@@ -85,13 +85,13 @@ const AboutUs = ({}, ref) => {
               </div>
             </div>
             <div className="SNS20IHCSPhMHNI w-full h-[26px] text-center text-neutral-50 text-xl max-sm:text-[16px] font-bold font-['Montserrat']">
-              Sân số 2 Đại học Sư Phạm Hà Nội
+              Sân bất kì tại Hà Nội
             </div>
             <div
               className="sm:hidden bg-golden text-white justify-start items-center gap-[15px] flex
           ButtonRegister px-6 py-3 rounded-sm gap-2.5 flextext-[19px] font-extrabold font-exbold"
             >
-              ĐĂNG KÝ THAM GIA HSB
+              ĐĂNG KÝ THAM GIA FC
             </div>
           </div>
         </div>

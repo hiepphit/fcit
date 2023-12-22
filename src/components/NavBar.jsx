@@ -1,5 +1,5 @@
 import { useState } from "react";
-import LOGO from "../assets/svg/logo_black.svg";
+import LOGO from "../assets/UI/logo.png";
 import MENU from "../assets/icon/menu-burger.svg";
 import CANCEL from "../assets/icon/icon_cancel.png";
 
@@ -15,10 +15,10 @@ const Navbar = ({ sections }) => {
   return (
     <div className="sticky z-50 top-0 w-full bg-[#f8f3e9]">
       <div className="flex justify-between items-center md:pl-[3.6875rem] md:pr-[3.6875rem] p-3">
-        <div className="flex flex-shrink-0 items-center gap-4 w-[8.875rem]">
-          <img src={LOGO} alt="HSB Logo" />
-          <div className="HsbFc w-[74px] h-6 text-zinc-950 text-[19px] font-exbold font-['Neue Plak']">
-            HSB FC
+        <div className="flex flex-shrink-0 items-center gap-4">
+          <img className="w-10 h-10" src={LOGO} alt="FCIT Logo" />
+          <div className="HsbFc h-6 text-zinc-950 text-[19px] font-exbold font-['Neue Plak']">
+            FC Infinity Talk
           </div>
         </div>
         <div className="Frame5 h-[26px] justify-center items-center gap-[43px] flex max-sm:hidden">

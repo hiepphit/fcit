@@ -10,18 +10,18 @@ import "./style.css";
 
 const players = [
   {
-    name: "Đoàn Ngọc Thạch",
+    name: "Pham Hoang Hiep",
     position: "GK",
     number: "01",
     score: { atk: 99, def: 99, spd: 99 },
-    fb: "https://www.facebook.com/ThachDoan99",
-    linkedin: "https://www.linkedin.com/in/thach-doan-99/",
-    web: "https://www.linkedin.com/in/thach-doan-99/",
+    fb: "",
+    linkedin: "",
+    web: "",
     image: "https://i.ibb.co/rp1MRJ7/BLUE5156-1-removebg-preview.png",
   },
 ];
 const URL =
-  "https://script.google.com/macros/s/AKfycbz8zM6WCfo62mQ_DWyGF6Tb9ERoDxqBEsKVq9AtyvfOPEZKgE8IPYRmtasf26ctvghc/exec";
+  "https://script.google.com/macros/s/AKfycbzQe4TsBJ1wym0lOS2THtbuZp1of947232yEqVsMEqmZeBT8v51sqWco_ANGSDcb02U/exec";
 const Member = ({}, ref) => {
   const [members, setMembers] = useState({ ST: players });
   // Function to classify players by position
@@ -76,11 +76,6 @@ const Member = ({}, ref) => {
       ref={ref}
       className="overflow-hidden bg-hero-pattern h-fit bg-no-repeat bg-cover flex-col flex md:p-20 max-sm:p-[13px] relative"
     >
-      <img
-        className="w-fit self-center md:pt-[100px] sm:pt-[42px]"
-        src={HSB}
-        alt="banner"
-      />
       <img
         className="w-fit self-center max-sm:w-80 pt-[10px]"
         src={MEMBER}

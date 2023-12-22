@@ -1,17 +1,21 @@
-import LOGO from "../assets/svg/logo_black.svg";
+import LOGO from "../assets/UI/logo.png";
 import ICON_FB from "../assets/icon/icfb.svg";
 import ICON_LINKEDIN from "../assets/icon/icin.svg";
 import ICON_WEB from "../assets/icon/icweb.svg";
+
+const LINK_FB = "https://www.facebook.com/infinity.talk.fc";
+const LINK_YOUTUBE = "";
+const LINK_INSTA = "";
 
 const Footer = () => {
   return (
     <footer>
       <div className="Frame427321079 w-full px-10 py-[150px] max-sm:py-5 bg-orange-100 bg-opacity-60 backdrop-blur-sm justify-around inline-flex flex-wrap">
         <div className="w-50 justify-start items-start gap-8 inline-flex">
-          <img src={LOGO} alt="LOGO" className="LOGO" />
+          <img src={LOGO} alt="LOGO" className="LOGO w-20" />
           <div className="Frame427321101 flex-col justify-start items-start gap-4 inline-flex">
             <div className="w-[300px] leading-8 text-start text-zinc-950 text-[32px] font-exbold flex gap-1">
-              HANOI START-UP BROTHERS FC
+              FC INFINITY TALK
             </div>
             <div className="text-zinc-950 text-lg text-start font-light font-poppins">
               Football is the most important of the less important things in the
@@ -38,7 +42,7 @@ const Footer = () => {
               Social network
             </div>
             <div className="inline-flex pt-[20px] gap-4">
-              <a className="" href="a">
+              <a className="" href={LINK_FB}>
                 <img alt="" src={ICON_FB} />
               </a>
               <a href="a">
@@ -49,6 +53,17 @@ const Footer = () => {
               </a>
             </div>
           </div>
+        </div>
+        <div className="w-full mt-10">
+          Producted by{" "}
+          <a
+            href="https://www.397solution.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            AquaFox Solution
+          </a>{" "}
+          <br /> 2024
         </div>
       </div>
     </footer>
