@@ -14,8 +14,8 @@ const Footer = () => {
         <div className="w-50 justify-start items-start gap-8 inline-flex">
           <img src={LOGO} alt="LOGO" className="LOGO w-20" />
           <div className="Frame427321101 flex-col justify-start items-start gap-4 inline-flex">
-            <div className="w-[300px] leading-8 text-start text-zinc-950 text-[32px] font-exbold flex gap-1">
-              FC INFINITY TALK
+            <div className="leading-8 text-start text-zinc-950 text-[32px] font-exbold flex gap-1">
+              FOOTBALL CLUB INFINITY TALK
             </div>
           </div>
         </div>
