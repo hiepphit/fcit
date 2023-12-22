@@ -17,10 +17,6 @@ const Footer = () => {
             <div className="w-[300px] leading-8 text-start text-zinc-950 text-[32px] font-exbold flex gap-1">
               FC INFINITY TALK
             </div>
-            <div className="text-zinc-950 text-lg text-start font-light font-poppins">
-              Football is the most important of the less important things in the
-              world.
-            </div>
           </div>
         </div>
         <div className="w-50 max-sm:w-full justify-start items-start gap-8 sm:inline-flex justify-between">
